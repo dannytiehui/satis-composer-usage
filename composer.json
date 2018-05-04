@@ -1,0 +1,22 @@
+{
+    "name": "liangdong/satis-composer-usage",
+    "description": "use private composer package",
+    "type": "project",
+    "authors": [
+        {
+            "name": "owenliang",
+            "email": "120848369@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "owenliang1990/first-composer-package": "dev-master"
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "http://localhost:8888"
+    }],
+    "config": {
+        "secure-http": false
+    }
+}
